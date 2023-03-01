@@ -11,7 +11,7 @@ const Header = () => {
           <div className="header-nav">
             <ul>
               <li>
-                <Link to="/">خانه</Link>
+                <Link to="/">خانه </Link>
                 <Link to="example">نمونه کار</Link>
                 <Link to="about">درباره ما</Link>
                 <Link to="conatct">تماس با ما</Link>

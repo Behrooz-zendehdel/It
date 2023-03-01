@@ -60,7 +60,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="bottom-footer">
-        <span></span>
+        <p>
+          تمامی حقوق مادی و معنوی سایت متعلق به شرکت{" "}
+          <strong>تو ای تی من</strong> می باشد
+        </p>
       </div>
     </footer>
   );

@@ -65,7 +65,7 @@ body {
     rgba(139, 92, 246, 1) 100%
   );
   width: 100%;
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 .footer-detail {
   display: flex;
@@ -95,6 +95,19 @@ body {
   padding: 0 10px;
 }
 .social-media-list a:hover {
+  color: #fff;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #fff;
+}
+.bottom-footer p {
+  margin-top: 5px;
+  font-weight: bold;
+}
+.bottom-footer p strong {
   color: #fff;
 }
 
@@ -153,7 +166,7 @@ body {
   align-items: center;
 }
 .products {
-  border: 1px solid #000;
+  border: 1px solid #8b5cf6;
   width: 400px;
   height: 400px;
   border-radius: 10px;
@@ -167,10 +180,15 @@ body {
   height: 200px;
 }
 .btn-products button {
-  border: none;
   outline: none;
   padding: 10px 15px;
   cursor: pointer;
+  border: 1px solid #8b5cf6;
+  border-radius: 5px;
+}
+.btn-products button:hover {
+  background-color: #8b5cf6;
+  color: #fff;
 }
 .product-space {
   padding: 10px 12px;
