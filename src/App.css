@@ -203,7 +203,7 @@ body {
 /* --------------ection-network----------------- */
 .section-network {
   width: 100%;
-  height: 150px;
+  height: 200px;
   padding: 1rem;
   display: flex;
   background-color: #4516bd;
@@ -212,8 +212,7 @@ body {
 }
 .network-all {
   width: 90%;
-  height: 120px;
-  border-radius: 12px;
+  height: 150px;
   background-color: #8b5cf6;
   display: flex;
   justify-content: center;
