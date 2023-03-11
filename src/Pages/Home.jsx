@@ -1,12 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { products } from "../data/Data";
-import image1 from "../assets/HomeImage/1-1.jpg";
-import image2 from "../assets/HomeImage/1-2.png";
-import image3 from "../assets/HomeImage/1-3.jpg";
-import image4 from "../assets/HomeImage/1-4.jpg";
-import image5 from "../assets/HomeImage/1-5.jpg";
-import image6 from "../assets/HomeImage/1-6.jpg";
+import { products, networkSorted, brands } from "../data/Data";
 
 const Home = () => {
   return (
@@ -70,13 +64,24 @@ const Home = () => {
               <h1>خرید تجهیزات شبکه براساس برند</h1>
             </div>
             <div className="shop-logo-brand">
-              <img src={image1} alt="" />
-              <img src={image2} alt="" />
-              <img src={image3} alt="" />
-              <img src={image4} alt="" />
-              <img src={image5} alt="" />
-              <img src={image6} alt="" />
+              {brands.map((brand) => {
+                return <img src={brand.img} alt={brand.alt} key={brand.id} />;
+              })}
             </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="conatiner">
+          <div className="section-network-sorting">
+            <h1>خرید تجهیزات براساس دسته بندی </h1>
+          </div>
+          <div className="network-sorting">
+            {networkSorted.map((networksort) => (
+              <div className="network-sorted" key={networksort.id}>
+                <img src={networksort.img} alt={networksort.alt} />
+              </div>
+            ))}
           </div>
         </div>
       </section>
