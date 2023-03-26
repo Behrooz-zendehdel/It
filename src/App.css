@@ -293,7 +293,67 @@ body {
 
 /* ------------section-network-sorting------------ */
 
-
 /* ---------------section-modem------------------- */
+.box-modem {
+  border: 1px solid #ccc;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+.hovered-modem {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+.search {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.share {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.image-modem {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+}
+.desc-modem {
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 17px;
+  display: block;
+}
+.called {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+.called:hover {
+  background-color: #8b5cf6;
+  color: #fff;
+}
 
 /* ---------------section-modem------------------- */
