@@ -85,6 +85,20 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="section-modem"> 
+      <div className="conatiner">
+        <div className="section-modem-all">
+          <div className="box-modem">
+            <div className="modem hovered-modem" >
+              <img className="image-modem" src="" alt="" />
+              <span className="desc-modem"></span>
+              <span className="called">تماس بگیرید</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </section>
     </main>
   );
 };
