@@ -104,3 +104,48 @@ export const networkSorted = [
     alt: "voip",
   },
 ];
+
+export const modems = [
+  {
+    id: 1,
+    img: '',
+    name: "modem romizi",
+    price: "100.000",
+    desc: "مودم رومیزی",
+  },
+  {
+    id: 2,
+    img:'',
+    name: "modem istade",
+    price: "110.000",
+    desc: "مودم ایستاده",
+  },
+  {
+    id: 3,
+    img: '',
+    name: "modem havie",
+    price: "120.000",
+    desc: "مودم هوایی",
+  },
+  {
+    id: 4,
+    img:'',
+    name: "modem hamrah",
+    price: "130.000",
+    desc: "مودم همراه",
+  },
+  {
+    id: 5,
+    img:'',
+    name: "modem jibi",
+    price: "140.000",
+    desc: "مودم جیبی",
+  },
+  {
+    id: 6,
+    img:'',
+    name: "modem sanati",
+    price: "150.000",
+    desc: "مودم صنعتی",
+  },
+];

@@ -358,5 +358,18 @@ body {
   padding: 10px;
   cursor: pointer;
 }
+.modem-price {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.modem-price span:nth-child(1) {
+  color: green;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.section-modem-all {
+}
 
 /* ---------------section-modem------------------- */

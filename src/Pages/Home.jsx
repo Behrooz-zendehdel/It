@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { products, networkSorted, brands } from "../data/Data";
-import modem from "../assets/HomeImage/1-1.jpg";
-import { BiSearchAlt } from "react-icons/bi";
-import { AiOutlineFork } from "react-icons/ai";
+import Modem from "./Modem";
+
 const Home = () => {
   return (
     <main>
@@ -87,29 +86,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="section-modem">
-        <div className="conatiner">
-          <div className="section-modem-all">
-            <div className="box-modem">
-              <div className="hovered">
-                <div className="search">
-                  <BiSearchAlt  fontSize={22}/>
-                </div>
-                <div className="share">
-                  <AiOutlineFork  fontSize={22}/>
-                </div>
-              </div>
-              <div className="modem">
-                <img className="image-modem" src={modem} alt="" />
-                <span className="desc-modem">
-                  مودم LTE USB زد تی ای مدل MF79U
-                </span>
-                <span className="called">تماس بگیرید</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     <Modem/>
     </main>
   );
 };
