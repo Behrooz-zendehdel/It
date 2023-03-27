@@ -300,36 +300,43 @@ body {
   height: 250px;
   position: relative;
 }
-.hovered-modem {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 100px;
-  top: 10px;
-  left: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  border: 1px solid #eee;
+.box-modem:hover .hovered {
+  display: block;
 }
-.search {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+.box-modem:hover .called {
+  background-color: #8b5cf6;
+  color: #fff;
 }
 
-.share {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.hovered {
+  width: 50px;
+  height: 90px;
+  position: absolute;
+  background-color: #fff;
+  top: 10px;
+  display: none;
   cursor: pointer;
+  left: 10px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.search:hover {
+  background-color: #eee;
+}
+.share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.share:hover {
+  background-color: #eee;
 }
 
 .image-modem {
@@ -350,10 +357,6 @@ body {
   display: block;
   padding: 10px;
   cursor: pointer;
-}
-.called:hover {
-  background-color: #8b5cf6;
-  color: #fff;
 }
 
 /* ---------------section-modem------------------- */

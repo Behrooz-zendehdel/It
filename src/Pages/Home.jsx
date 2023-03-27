@@ -91,15 +91,15 @@ const Home = () => {
         <div className="conatiner">
           <div className="section-modem-all">
             <div className="box-modem">
-              <div className="modem ">
-                <div className="hovered-modem">
-                  <div className="search">
-                    <BiSearchAlt fontSize={20} />
-                  </div>
-                  <div className="share">
-                    <AiOutlineFork fontSize={20} />
-                  </div>
+              <div className="hovered">
+                <div className="search">
+                  <BiSearchAlt  fontSize={22}/>
                 </div>
+                <div className="share">
+                  <AiOutlineFork  fontSize={22}/>
+                </div>
+              </div>
+              <div className="modem">
                 <img className="image-modem" src={modem} alt="" />
                 <span className="desc-modem">
                   مودم LTE USB زد تی ای مدل MF79U
