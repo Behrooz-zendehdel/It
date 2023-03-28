@@ -295,7 +295,6 @@ body {
 
 /* ---------------section-modem------------------- */
 .box-modem {
-  border: 1px solid #ccc;
   width: 250px;
   height: 250px;
   position: relative;
@@ -370,6 +369,8 @@ body {
   margin-right: 5px;
 }
 .section-modem-all {
+  display: flex;
+  gap: 1rem;
 }
 
 /* ---------------section-modem------------------- */

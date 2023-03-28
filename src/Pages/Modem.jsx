@@ -20,10 +20,6 @@ const Modem = () => {
               <div className="modem">
                 <img className="image-modem" src={modem.img} alt={modem.name} />
                 <span className="desc-modem">{modem.desc}</span>
-                <span className="modem-price">
-                  {modem.price}
-                  <span>تومان</span>
-                </span>
                 <span className="called">تماس بگیرید</span>
               </div>
             </div>
