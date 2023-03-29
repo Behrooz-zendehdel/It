@@ -369,8 +369,8 @@ body {
   margin-right: 5px;
 }
 .section-modem-all {
-  display: flex;
-  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
 }
 
 /* ---------------section-modem------------------- */
