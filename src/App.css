@@ -159,7 +159,7 @@ body {
   padding: 3rem 0;
 }
 .list-products {
-  gap: 4rem;
+  gap: 6rem;
   display: grid;
   grid-template-columns: 250px 250px 250px;
   grid-template-rows: 320px 320px;
