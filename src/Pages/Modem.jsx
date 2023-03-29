@@ -43,6 +43,14 @@ const Modem = () => {
                       alt={modem.name}
                     />
                     <span className="desc-modem">{modem.desc}</span>
+                    <span className="modem-price-line">
+                      {" "}
+                      {modem.priceline} <span>تومان</span>
+                    </span>
+                    <span className="modem-price">
+                      {modem.price} <span>تومان</span>
+                    </span>
+
                     <span className="called">تماس بگیرید</span>
                   </div>
                 </div>

@@ -113,6 +113,7 @@ export const modems = [
     img: require("../assets/modem/1.jpg"),
     name: "modem romizi",
     price: "100.000",
+    priceline: "140.000",
     desc: "مودم رومیزی",
   },
   {
@@ -120,6 +121,7 @@ export const modems = [
     img: require("../assets/modem/2.jpg"),
     name: "modem istade",
     price: "110.000",
+    priceline: "150.000",
     desc: "مودم ایستاده",
   },
   {
@@ -127,6 +129,7 @@ export const modems = [
     img: require("../assets/modem/3.jpg"),
     name: "modem havie",
     price: "120.000",
+    priceline: "160.000",
     desc: "مودم هوایی",
   },
   {
@@ -134,6 +137,7 @@ export const modems = [
     img: require("../assets/modem/4.jpg"),
     name: "modem hamrah",
     price: "130.000",
+    priceline: "170.000",
     desc: "مودم همراه",
   },
   {
@@ -141,6 +145,7 @@ export const modems = [
     img: require("../assets/modem/5.jpg"),
     name: "modem jibi",
     price: "140.000",
+    priceline: "180.000",
     desc: "مودم جیبی",
   },
   {
@@ -148,6 +153,7 @@ export const modems = [
     img: require("../assets/modem/6.jpg"),
     name: "modem sanati",
     price: "150.000",
+    priceline: "200.000",
     desc: "مودم صنعتی",
   },
 ];

@@ -303,7 +303,7 @@ body {
 /* ---------------section-modem------------------- */
 .box-modem {
   width: 250px;
-  height: 250px;
+  height: 300px;
   position: relative;
 }
 .box-modem:hover .hovered {
@@ -364,11 +364,25 @@ body {
   padding: 10px;
   cursor: pointer;
 }
+.modem-price-line {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+  align-items: center;
+  text-decoration: line-through;
+  color: #d1c9c9;
+}
+.modem-price-line span:nth-child(1) {
+  color: #d1c9c9;
+  font-weight: bold;
+  margin-right: 5px;
+}
 .modem-price {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  font-weight: bold;
 }
 .modem-price span:nth-child(1) {
   color: green;
@@ -377,6 +391,7 @@ body {
 }
 .section-modem-all {
   width: 100%;
+  height: 350px;
   padding: 1rem;
 }
 
